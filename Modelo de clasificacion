@@ -108,7 +108,7 @@
         "id": "4hWqWUkTgSw8",
         "outputId": "dc7945a2-d24c-4101-ec01-6f99196b1e92"
       },
-      "execution_count": 23,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -635,7 +635,7 @@
         "id": "cZhZdKAriP_C",
         "outputId": "c78e359d-5a06-47e5-ccd7-e0b551d76f94"
       },
-      "execution_count": 35,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -689,7 +689,7 @@
         "id": "ahAt1rSNkM9o",
         "outputId": "bbc508a2-8ea5-438f-f37c-33642c1ac065"
       },
-      "execution_count": 36,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -730,64 +730,10 @@
         "print(df.isnull().sum())\n"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "vj0uMV8Qj9hn",
-        "outputId": "7742c80e-3d13-42a1-d223-89aa7ced5489"
+        "id": "vj0uMV8Qj9hn"
       },
-      "execution_count": 37,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "age               0\n",
-            "workclass         0\n",
-            "fnlwgt            0\n",
-            "education         0\n",
-            "education-num     0\n",
-            "marital-status    0\n",
-            "occupation        0\n",
-            "relationship      0\n",
-            "race              0\n",
-            "sex               0\n",
-            "capital-gain      0\n",
-            "capital-loss      0\n",
-            "hours-per-week    0\n",
-            "native-country    0\n",
-            "income            0\n",
-            "dtype: int64\n"
-          ]
-        },
-        {
-          "output_type": "stream",
-          "name": "stderr",
-          "text": [
-            "/tmp/ipython-input-37-4271277350.py:1: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.\n",
-            "The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.\n",
-            "\n",
-            "For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.\n",
-            "\n",
-            "\n",
-            "  df['workclass'].fillna(df['workclass'].mode()[0], inplace=True)\n",
-            "/tmp/ipython-input-37-4271277350.py:2: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.\n",
-            "The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.\n",
-            "\n",
-            "For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.\n",
-            "\n",
-            "\n",
-            "  df['occupation'].fillna(df['occupation'].mode()[0], inplace=True)\n",
-            "/tmp/ipython-input-37-4271277350.py:3: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.\n",
-            "The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.\n",
-            "\n",
-            "For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.\n",
-            "\n",
-            "\n",
-            "  df['native-country'].fillna(df['native-country'].mode()[0], inplace=True)\n"
-          ]
-        }
-      ]
+      "execution_count": null,
+      "outputs": []
     },
     {
       "cell_type": "code",
@@ -813,7 +759,7 @@
         "id": "VHK6wB-ynarx",
         "outputId": "612bafb2-9916-4ba7-8183-48582be19191"
       },
-      "execution_count": 38,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -857,7 +803,7 @@
         "id": "_QJQ9fsmqmA_",
         "outputId": "fb24262c-c09f-48ba-e208-6b2fb4b6b4ae"
       },
-      "execution_count": 39,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "display_data",
@@ -893,7 +839,7 @@
         "id": "kA0Rs3ASqnfN",
         "outputId": "76191540-bf4e-4fc8-9b99-bfab651db167"
       },
-      "execution_count": 40,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "display_data",
@@ -926,7 +872,7 @@
         "id": "HpWT3-x1qCTb",
         "outputId": "53d56ebb-4173-4a13-be0c-bbe7d52daa0a"
       },
-      "execution_count": 41,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -967,7 +913,7 @@
         "id": "UH5kr1WIqJna",
         "outputId": "2a8aee07-833d-4391-df28-939f64d6f378"
       },
-      "execution_count": 42,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1011,7 +957,7 @@
         "id": "oujGSRFzuTgC",
         "outputId": "fce913f7-9b10-471c-ced1-56277f37aa92"
       },
-      "execution_count": 43,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1073,7 +1019,7 @@
       "metadata": {
         "id": "Eoo7bitrwY_B"
       },
-      "execution_count": 48,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -1091,7 +1037,7 @@
       "metadata": {
         "id": "vnVuqTxWvz57"
       },
-      "execution_count": 47,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -1109,7 +1055,7 @@
         },
         "outputId": "dc4644a1-65fa-4bb5-e683-23cd99e68eda"
       },
-      "execution_count": 50,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
